@@ -51,12 +51,6 @@ class Gate {
       console.log("Toggle both gates")
     }
 
-    if (this.state === OPEN) {
-      this.state = CLOSED
-    } else if (this.state === CLOSED) {
-      this.state = OPEN
-    }
-
     console.error("Can only toggle 1 or 2 gates")
   }
 
